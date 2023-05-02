@@ -1,0 +1,151 @@
+*{margin: 0;padding: 0;}
+ /* clases */
+ /* primer section */
+.todo{
+    display: flex; 
+font-family: Arial, Helvetica, sans-serif;}
+    .imagen{
+margin: 26px 0px 26px 120px;
+border-radius: 30px;
+    }
+    .regalo{ border-radius: 10px;}
+
+.hijoderecha{ 
+   padding: 20px 20px 0px 20px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin: 30px 0px 30px 200px
+}
+.sign{
+    text-align: center;
+    font-size: 25px;
+}
+
+    .trescosas{display: flex; 
+        align-items: center;
+   justify-content: space-between;
+   padding: 5px 0px 5px 0px;
+    }
+   .redes{ 
+    padding: 5px 20px 5px 20px;
+    border: 1px solid grey;
+    margin: 20px 25px 15px 25px;
+    background-color: transparent;
+    border-radius: 7px;
+    transition:ease-in;
+    transform: 0.2s;
+    }
+
+    /* segundo section */
+    
+    .lineas{ display: flex;
+    
+    }
+    .linea1{ 
+        border-top: 1px solid grey;
+        width: 135px;
+        margin:  8px 10px -20px 25px;
+    }
+    .linea2{
+        border-top: 1px solid grey;
+        width: 135px;
+        margin:  8px 20px -20px 10px;
+    }
+    
+
+.lineasfrase{ 
+    text-align: center;
+    justify-content: center;
+font-size: 15px;
+display:flex;
+text-align: center;
+justify-content: center;
+}
+.emailnumero{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 35px 20px 35px;
+    padding: 0px  50px 0px 50px;
+}
+
+
+.emailboton{
+    margin: 0px 45px 0px 1px;
+background-color: rgb(249, 125, 8 );
+color: white;
+border: 0px;
+padding: 10px 24px 10px 24px;
+border-radius: 10px;
+font-size:15px;
+
+}
+
+    
+.numero{
+    font-size: 15px;
+    margin: 10px 0px 0px 30px;
+}
+.num{
+    font-size: 15px;
+}
+/* tercer section */
+.lbemail, .lbpass{ 
+    display: block;
+    padding: 5px 20px 5px 17px;
+    font-size: 15px;
+    
+}
+
+.fmemail, .fmpass{ 
+border: 1px solid grey;
+border-radius: 5px;
+padding: 15px 5px 15px 5px ;
+width: 371px;
+margin: 0px 0px 10px 17px;
+}
+
+.olvido{
+    font-size: 15px;
+    padding: 0px 0px 0px 17px;
+}
+
+/* cuarto section */
+
+
+.ingresar{
+
+
+background-color: rgb(249, 125, 8 );
+color: white;
+border: 0px;
+padding: 13px 65px 13px 65px;
+border-radius: 7px;
+font-size:15px;
+margin: 30px 0px 0px 125px;
+
+}
+
+.cuenta{
+    margin: 10px 0px 10px  122px;
+    font-size: 15px;
+}
+.registro{
+    color: rgb(249, 125, 8 );
+    margin: 20px 0px 0px 165px;
+}
+/* pseudo */
+.redes:hover{
+   background-color: rgb(241, 245, 245 );
+}
+
+.num:hover{
+color: rgb(249, 125, 8 );
+}
+ 
+.ingresar:hover{
+ 
+ filter:opacity(90%)
+}
+.emailboton:hover{
+    filter:opacity(90%)
+}
